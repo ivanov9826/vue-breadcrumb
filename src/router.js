@@ -1,14 +1,14 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-import HelloWorldVue from "./src/components/HelloWorld.vue";
+import HelloWorldVue from "./components/HelloWorld.vue";
 
-import Teams from "./src/components/Teams/Teams.vue";
-import LowerTeam from "./src/components/Teams/LowerTeam.vue";
-import HigherTeam from "./src/components/Teams/HigherTeams.vue";
+import Teams from "./components/Teams/Teams.vue";
+import LowerTeam from "./components/Teams/LowerTeam.vue";
+import HigherTeam from "./components/Teams/HigherTeams.vue";
 
-import Users from "./src/components/Users/Users.vue";
-import LowerUsers from "./src/components/Users/LowerUsers.vue";
-import HigherUsers from "./src/components/Users/HigherUsers.vue";
+import Users from "./components/Users/Users.vue";
+import LowerUsers from "./components/Users/LowerUsers.vue";
+import HigherUsers from "./components/Users/HigherUsers.vue";
 
 const router = createRouter({
   history: createWebHistory(),
